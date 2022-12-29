@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
-use App\Traits\UssdMenuTrait;
-use App\Traits\SmsTrait;
+use App\Http\Traits\UssdMenuTrait;
+use App\Http\Traits\SmsTrait;
 
 class UssdController extends Controller
 {
