@@ -15,7 +15,7 @@ class UssdController extends Controller
     {
         $sessionId   = $request["sessionId"];
         $serviceCode = $request["serviceCode"];
-        $phone       = $ussd_string_explodedrequest["phoneNumber"];
+        $phone       = $request["phoneNumber"];
         $text        = $request["text"];
 
         header('Content-type: text/plain');
